@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2496118f-6c4f-48a2-9315-bbdc21428e7d" name="Changes" comment="fix bugs (and generate others)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/ru/hse/consumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/ru/hse/consumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/ru/hse/producer/Fabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/ru/hse/producer/Fabric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/ru/hse/producer/MonoThreadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/ru/hse/producer/MonoThreadServer.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2QLKQmAobSGWeRxZ2koIGJAptM7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/home/mestreltsov/IdeaProjects/hw10",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jars" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jars" />
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Fabric">
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.hse.consumer.Consumer" />
+      <module name="client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.hse.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fabric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.hse.producer.Fabric" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.hse.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="S" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.hse.consumer.S" />
+      <module name="client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.hse.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.hse.consumer.Test" />
+      <module name="client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.hse.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.hse.producer.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.hse.producer.Test" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.hse.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Fabric" />
+        <item itemvalue="Application.ru.hse.producer.Test" />
+        <item itemvalue="Application.S" />
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2496118f-6c4f-48a2-9315-bbdc21428e7d" name="Changes" comment="" />
+      <created>1685127408852</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685127408852</updated>
+      <workItem from="1685127410149" duration="3936000" />
+      <workItem from="1685198002715" duration="4778000" />
+      <workItem from="1685209448999" duration="6697000" />
+      <workItem from="1685625964483" duration="6547000" />
+      <workItem from="1685632866618" duration="1012000" />
+      <workItem from="1685638166822" duration="3823000" />
+      <workItem from="1685650884849" duration="4187000" />
+      <workItem from="1685655398850" duration="101000" />
+      <workItem from="1685700285542" duration="2862000" />
+      <workItem from="1685711392906" duration="1458000" />
+      <workItem from="1685785461499" duration="8291000" />
+      <workItem from="1685806877957" duration="1823000" />
+      <workItem from="1685823512632" duration="1776000" />
+      <workItem from="1685825300504" duration="375000" />
+    </task>
+    <task id="LOCAL-00001" summary="Minor changes">
+      <created>1685632379509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685632379509</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Minor changes">
+      <created>1685633169542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685633169542</updated>
+    </task>
+    <task id="LOCAL-00003" summary="implement start from jar (fix bugs)&#10;add multithreading">
+      <created>1685641296036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685641296036</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix bugs">
+      <created>1685655062642</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685655062642</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix bugs">
+      <created>1685655491610</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685655491610</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new implementation">
+      <created>1685702753286</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685702753286</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix bugs">
+      <created>1685712692116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685712692116</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix bugs (and generate others)">
+      <created>1685797987705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685797987705</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Minor changes" />
+    <MESSAGE value="implement start from jar (fix bugs)&#10;add multithreading" />
+    <MESSAGE value="new implementation" />
+    <MESSAGE value="fix bugs" />
+    <MESSAGE value="fix bugs (and generate others)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bugs (and generate others)" />
+  </component>
+</project>

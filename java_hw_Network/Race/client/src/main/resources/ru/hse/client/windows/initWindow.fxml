@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<VBox alignment="TOP_CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ru.hse.client.windows.InitWindowController">
+
+    <Region VBox.vgrow="ALWAYS" minHeight="3" maxHeight="3"/>
+    <Label fx:id="welcomeText" text="Race" scaleX="2" scaleY="2"/>
+
+    <VBox alignment="CENTER" spacing="10.0" xmlns:fx="http://javafx.com/fxml">
+        <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        </padding>
+
+        <Label text="Address"/>
+        <TextField fx:id="address" promptText="localhost" focusTraversable="false"/>
+
+        <Label text="Port"/>
+        <TextField fx:id="port" promptText="5619" focusTraversable="false"/>
+
+        <Label text="Username"/>
+        <TextField fx:id="username" promptText="test" focusTraversable="false"/>
+
+    </VBox>
+
+    <Button text="Play!" onAction="#onPlayButtonClick"/>
+
+    <Button text="About" onAction="#onAboutButtonClick"/>
+
+</VBox>

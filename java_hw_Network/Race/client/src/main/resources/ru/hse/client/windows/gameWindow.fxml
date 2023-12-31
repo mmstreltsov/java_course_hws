@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox alignment="TOP_CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ru.hse.client.windows.GameWindowController">
+
+    <Region VBox.vgrow="ALWAYS" minHeight="3" maxHeight="3"/>
+    <Label text="Race" scaleX="2" scaleY="2"/>
+
+    <VBox alignment="CENTER" spacing="10.0" xmlns:fx="http://javafx.com/fxml">
+        <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        </padding>
+
+        <Label text="Players"/>
+        <GridPane alignment="CENTER" xmlns:fx="http://javafx.com/fxml">
+            <TextArea fx:id="statistic" minWidth="475" minHeight="100" editable="false" focusTraversable="false"
+                      style="-fx-alignment: left"
+                      GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <Region VBox.vgrow="ALWAYS" minWidth="20" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+            <TextArea fx:id="timer" minWidth="125" minHeight="100" editable="false" focusTraversable="false"
+                      style="-fx-alignment: center"
+                      GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+        </GridPane>
+
+        <Label text="Text"/>
+        <TextArea fx:id="text" minWidth="520" minHeight="200" editable="false"
+                  focusTraversable="false" wrapText="true"/>
+
+        <Region VBox.vgrow="ALWAYS" minHeight="50"/>
+
+
+        <GridPane alignment="CENTER" xmlns:fx="http://javafx.com/fxml">
+            <Label text="Your input" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <TextField fx:id="input" minWidth="400" maxHeight="25" editable="false" focusTraversable="false"
+                      GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <Region VBox.vgrow="ALWAYS" minWidth="20" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+            <TextArea fx:id="hint" minWidth="75" maxHeight="20" editable="false" focusTraversable="false" visible="false"
+                      GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+        </GridPane>
+
+    </VBox>
+
+</VBox>

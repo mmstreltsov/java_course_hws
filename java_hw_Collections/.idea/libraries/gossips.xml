@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gossips">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/gossips/gossips.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
